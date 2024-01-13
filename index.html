@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StopWatch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="clockBoard">
+    <div class="clockTexts">
+      <p class="day text"></p>
+      <p class = textDescription>Day</p>
+    </div>
+    <div class = beeper>
+      <div class="tick"></div>
+      <div class="tock"></div>
+    </div>
+    <div class="clockTexts">
+      <p class=" hour text"></p>
+      <p class = textDescription>Hour</p>
+    </div>
+    <div class = beeper>
+      <div class="tick"></div>
+      <div class="tock"></div>
+    </div>
+    <div class="clockTexts">
+      <p class="minute text"></p>
+      <p class = textDescription>Minute</p>
+    </div>
+    <div class = beeper>
+      <div class="tick"></div>
+      <div class="tock"></div>
+    </div>
+    <div class="clockTexts">
+      <p class=" second text"></p>
+      <p class = textDescription>Second</p>
+    </div>
+    <div class="beeper">
+      <p class="millisecond"></p>
+    </div>
+  </div>
+  <div class="buttonBoard">
+    <button onclick="buttonChange()" class="buttons">start</button>
+    <button onclick="resetFunction()" class="buttons">Reset</button>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(65,137,223,1) 49%, rgba(163,163,255,1) 81%);
+  height: auto;
+}
+.clockBoard{
+  margin: auto;
+  margin-top: 250px;
+  width : 80%;
+  height : 250px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border: 2px;
+  border-radius: 10px;
+  padding-top: 30px;
+  box-shadow: -1px 6px 41px 2px rgba(0,0,0,0.94);
+}
+.clockTexts{
+  width: 15%;
+  height: 70%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 100%;
+  
+}
+.text{
+  font-size: clamp(5rem, 2vw + 0.75rem, 6rem);
+}
+.beeper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+.tick{
+  position: absolute;
+  background-color: rgb(151, 151, 151);
+  border: 1px solid;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  margin-top: 60px;
+
+}
+.tock{
+  position: absolute;
+  background-color: rgb(151, 151, 151);
+  border: 1px solid;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  
+
+}
+.textDescription{
+  color: rgb(151, 151, 151);;
+}
+.buttonBoard{
+  padding: 16px;
+  height: 60px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.buttons{
+  background-color: black;
+  height: 40px;
+  width: 120px;
+  border: 0px;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.started{
+  background-color: rgb(151, 151, 151);
+  color: black;
+}
